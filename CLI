@@ -2,3 +2,4 @@
 git checkout -b pages_and_layout was to switch to another branch / Switched to a new branch 'pages_and_layout'
 use npm # add c9 command to linux
 # use google fonts for the homepage vid 66
+#in routes.rb: we will create a route for the home page. Then for the about page that will be /about to get there...
