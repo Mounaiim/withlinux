@@ -1,0 +1,2 @@
+ cat ~/.ssh/id_rsa.pub #to generate a ssh key. 
+git checkout -b pages_and_layout was to switch to another branch / Switched to a new branch 'pages_and_layout'
