@@ -3,3 +3,89 @@ git checkout -b pages_and_layout was to switch to another branch / Switched to a
 use npm # add c9 command to linux
 # use google fonts for the homepage vid 66
 #in routes.rb: we will create a route for the home page. Then for the about page that will be /about to get there...
+#bbotstrap library front front end. 
+#rename your application.css extention to .css.scss 
+#got the nav bar from getbootstrap.com
+Steps to add a page: 
+    1/add an html page at pages
+    2/add to the class at pages_controller.rb
+    3/add a route in routes.rb
+    4/then add access boutton through the navbar in application.html.erb
+then will use UIgradients.com for the color and then add it to your css 
+container-fluid get rid of the margin right and left 
+then you can use inspect for live changes
+also padding vs marging, margin is for the the whole section, padding is withing the section. 
+change the text color of text in the home-callout css. defualt isblack but in css change with color: #404040
+use inspect as much as you can, it shows different feature i.e it will show you specifity of css which class falls under which etc 
+
+
+use padding on the home page if you want to increase or reduce the blue space. 
+
+We install font awesome using gem 
+
+    
+
+
+
+
+#list of website I am using 
+https://github.com/
+https://getbootstrap.com/docs/4.5/examples/
+https://www.bootstrapcdn.com/
+https://getbootstrap.com/docs/4.5/components/navbar/ for the nav bar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+css efficient code: nested code/ read documentation sass-long
+========================================================
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
+}
+// Home Page Styles
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}

@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Saasapp</title>
+    <title>Eassist</title>
     <%= csrf_meta_tags %>
     
+    <!--I added-->
+    <!--add bootstrap this way or install it in the GEM file-->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <!--/I added-->
     
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    
+<!--Got THIS FORM https://getbootstrap.com/docs/4.5/components/navbar/-->
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class='container'>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--uncred item or a tag which used to links one page to another throu the href element-->
+      <!--icon should be nested-->
+      <a href="/" class="navbar-brand"><i class="fa fa-flash"></i><i class="fa fa-plug"></i> Eassist</a>
+    </div>
+    <div class="collapse navbar-collapse" id="main-nav-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <!--this to tell where this supposed to link when you create a /about-->
+        <li><a href="/about">About</a></li>
+        <li><a href="/products">Products</a></li> <!-------------------------------------- add to your navbar here-->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+
+    
     <%= yield %>
+
   </body>
 </html>

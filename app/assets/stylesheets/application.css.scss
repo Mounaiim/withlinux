@@ -1,0 +1,79 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+h1, h2, h3 {
+    font-family:  'Nerko One', sans-serif;
+}
+
+//Gradient provided by @_ighosh at uiGradients.com
+// this where we added uigradients
+// add the body tag if you want the gradiant to be on the rest of the page 
+//original 
+// background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//dark
+// background: rgb(74,63,58);
+// background: linear-gradient(129deg, rgba(74,63,58,1) 11%, rgba(19,19,29,1) 64%);
+.navbar, .home-callout {
+// background: #1c92d2;  /* fallback for old browsers */
+background: rgb(142,199,237);
+background: linear-gradient(129deg, rgba(142,199,237,1) 17%, rgba(7,114,226,1) 97%);
+}
+
+//navbar style, eliminate the border between navbar and container.
+.navbar {
+     border: none;
+}
+
+
+.home-callout {
+    // color: #404040;
+    color: white;
+    margin-top: -20px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+//css specificity/ use scss refactor to minimize your code
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+    opacity:80%;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover,  {
+    color: white;
+    background-color: transparent;
+    opacity: 75%;
+}
+
