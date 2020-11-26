@@ -29,13 +29,20 @@
       </button>
       <!--uncred item or a tag which used to links one page to another throu the href element-->
       <!--icon should be nested-->
-      <a href="/" class="navbar-brand"><i class="fa fa-flash"></i><i class="fa fa-plug"></i> Eassist</a>
+
+      <%= link_to "/", class: "navbar-brand" do %>
+        <i class="fa fa-plug"></i> 
+        Eassist
+      <% end %>
+      
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
         <!--this to tell where this supposed to link when you create a /about-->
-        <li><a href="/about">About</a></li>
-        <li><a href="/products">Products</a></li> <!-------------------------------------- add to your navbar here-->
+        <!--<li><a href="/about">About</a></li> <!--html way-->-->
+         <!--li><a href="/products">Products</a></li> <-------------------------------------- add to your navbar here-->
+        <li><%= link_to "About", "/about" %></li>
+        <li><%= link_to "Products", "/products" %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>

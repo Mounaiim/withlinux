@@ -23,7 +23,8 @@ use padding on the home page if you want to increase or reduce the blue space.
 
 We install font awesome using gem 
 
-    
+  <!--<li><a href="/about">About</a></li> <!--html way-->-->
+  <!--li><a href="/products">Products</a></li> <-------------------------------------- add to your navbar here-->    
 
 
 
