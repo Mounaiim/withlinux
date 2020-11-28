@@ -27,13 +27,25 @@ We install font awesome using gem
   <!--li><a href="/products">Products</a></li> <-------------------------------------- add to your navbar here-->    
 
 
+route fixes#86 lesson: make pages transition dynamic instead of hardcoded (update to use prefixes:
+use rails routes to check the routes you curently have
+..... "/" to route_path
+ .... "/about" to about_path or about_url to inject the entire domaine name 
+ 
+ Lorem+tab will generate a large text. 
+ 
+remember to add js for navbar to work 
 
+asset pipline for faster website, (moretrip from the browserto our website increases the cost and slow the website for the customers, bad circumstances occur)
 
 #list of website I am using 
 https://github.com/
 https://getbootstrap.com/docs/4.5/examples/
 https://www.bootstrapcdn.com/
 https://getbootstrap.com/docs/4.5/components/navbar/ for the nav bar
+api.rubyonrails.org to improve how you write links 
+https://github.com/twbs/bootstrap-sass
+https://developers.google.com/speed/pagespeed/insights/
 
 
 
@@ -66,9 +78,8 @@ https://getbootstrap.com/docs/4.5/components/navbar/ for the nav bar
 
 
 
-
-
-
+WHen I am stuck I go back to this:
+https://upskillcourses.com/courses/essential-web-developer-course/git-workflow-tips
 
 
 

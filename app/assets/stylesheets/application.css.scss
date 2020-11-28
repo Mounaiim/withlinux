@@ -20,6 +20,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+//general
 h1, h2, h3 {
     font-family:  'Nerko One', sans-serif;
 }
@@ -31,12 +32,13 @@ h1, h2, h3 {
 // background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
 // background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 //dark
-// background: rgb(74,63,58);
-// background: linear-gradient(129deg, rgba(74,63,58,1) 11%, rgba(19,19,29,1) 64%);
+
 .navbar, .home-callout {
 // background: #1c92d2;  /* fallback for old browsers */
 background: rgb(142,199,237);
 background: linear-gradient(129deg, rgba(142,199,237,1) 17%, rgba(7,114,226,1) 97%);
+// background: rgb(74,63,58);
+// background: linear-gradient(129deg, rgba(74,63,58,1) 11%, rgba(19,19,29,1) 64%);
 }
 
 //navbar style, eliminate the border between navbar and container.
@@ -44,7 +46,12 @@ background: linear-gradient(129deg, rgba(142,199,237,1) 17%, rgba(7,114,226,1) 9
      border: none;
 }
 
-
+// specific to our logo
+.navbar-brand{
+    font-family: 'Open sans', -sans-serif;
+    font-weight: 800;
+}
+//home page styles
 .home-callout {
     // color: #404040;
     color: white;
@@ -77,3 +84,18 @@ background: linear-gradient(129deg, rgba(142,199,237,1) 17%, rgba(7,114,226,1) 9
     opacity: 75%;
 }
 
+//little Menu square (next 3 blocks/used sassif for nested commands)
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff0;
+    &:hover, &:focus {
+        background-color: #07070842;
+    } 
+}
+
+// .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+//     // background-color: #1678e3;
+//     background-color: #07070842;
+// }

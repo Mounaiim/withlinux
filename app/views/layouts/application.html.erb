@@ -3,19 +3,17 @@
   <head>
     <title>Eassist</title>
     <%= csrf_meta_tags %>
-    
     <!--I added-->
     <!--add bootstrap this way or install it in the GEM file-->
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="//fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
     <!--/I added-->
-    
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+<body>
     
 <!--Got THIS FORM https://getbootstrap.com/docs/4.5/components/navbar/-->
 <nav class="navbar navbar-default navbar-static-top" role="navigation">
@@ -30,26 +28,21 @@
       <!--uncred item or a tag which used to links one page to another throu the href element-->
       <!--icon should be nested-->
 
-      <%= link_to "/", class: "navbar-brand" do %>
-        <i class="fa fa-plug"></i> 
-        Eassist
+      <%= link_to root_path, class: "navbar-brand" do %>
+        <i class="fa fa-flash"></i><i class="fa fa-plug"></i> Eassist
       <% end %>
-      
     </div>
+    
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <!--this to tell where this supposed to link when you create a /about-->
-        <!--<li><a href="/about">About</a></li> <!--html way-->-->
-         <!--li><a href="/products">Products</a></li> <-------------------------------------- add to your navbar here-->
-        <li><%= link_to "About", "/about" %></li>
-        <li><%= link_to "Products", "/products" %></li>
+        <!-- this supposed to link when you create a /about-->
+        <li><%= link_to "About", about_url %></li>
+        <li><%= link_to "Products", products_path %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>
 </nav>
 
-
-    
     <%= yield %>
 
   </body>
