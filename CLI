@@ -38,17 +38,18 @@ remember to add js for navbar to work
 
 asset pipline for faster website, (moretrip from the browserto our website increases the cost and slow the website for the customers, bad circumstances occur)
 
-#list of website I am using 
-https://github.com/
-https://getbootstrap.com/docs/4.5/examples/
-https://www.bootstrapcdn.com/
-https://getbootstrap.com/docs/4.5/components/navbar/ for the nav bar
-api.rubyonrails.org to improve how you write links 
-https://github.com/twbs/bootstrap-sass
-https://developers.google.com/speed/pagespeed/insights/
 
 
+11/29/2020
+merge branches together to get the master branch up to date. 
+use: git branch //list of branches you have
+git status 
+git checkout master //to swithcback to master branch
+then git merge pages_and_layout 
+git checkout -b contact_form
 
+
+forms are everywhere, lets leran it: 
 
 
 
@@ -101,3 +102,23 @@ css efficient code: nested code/ read documentation sass-long
   padding-top: 50px;
   padding-bottom: 100px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+#list of website I am using 
+https://github.com/
+https://getbootstrap.com/docs/4.5/examples/
+https://www.bootstrapcdn.com/
+https://getbootstrap.com/docs/4.5/components/navbar/ for the nav bar
+api.rubyonrails.org to improve how you write links 
+https://github.com/twbs/bootstrap-sass
+https://developers.google.com/speed/pagespeed/insights/
