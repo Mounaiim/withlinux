@@ -45,8 +45,11 @@ merge branches together to get the master branch up to date.
 use: git branch //list of branches you have
 git status 
 git checkout master //to swithcback to master branch
-then git merge pages_and_layout 
+then git merge pages_and_layout // this will dump everything from pages_and_layout to master 
+then will create a branch to treat the contact forms 
 git checkout -b contact_form
+
+then we create contoller file contacts-controller.rb  then a folder and file in views then route so the customer can access that page 
 
 
 forms are everywhere, lets leran it: 
