@@ -49,7 +49,10 @@ then git merge pages_and_layout // this will dump everything from pages_and_layo
 then will create a branch to treat the contact forms 
 git checkout -b contact_form
 
-then we create contoller file contacts-controller.rb  then a folder and file in views then route so the customer can access that page 
+then we create contoller file contacts_controller.rb  then a folder and file in views then route so the customer can access that page 
+in the contacts_controller.rb file you gonna have to create a function or a method with same name as your html file then in the route file you write the magic line so customes get to that page and widthdraw all the html in there :D 
+Gooboy.
+
 
 
 forms are everywhere, lets leran it: 
