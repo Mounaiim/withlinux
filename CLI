@@ -53,14 +53,11 @@ then we create contoller file contacts_controller.rb  then a folder and file in 
 in the contacts_controller.rb file you gonna have to create a function or a method with same name as your html file then in the route file you write the magic line so customes get to that page and widthdraw all the html in there :D 
 Gooboy.
 
+11-30-2020
+forms are everywhere, lets learn it: 
+https://guides.rubyonrails.org/v5.2/form_helpers.html
 
-
-forms are everywhere, lets leran it: 
-
-
-
-
-
+now we going to improve forms using bootstrap 
 
 
 
@@ -85,7 +82,11 @@ forms are everywhere, lets leran it:
 
 
 
-WHen I am stuck I go back to this:
+
+
+
+
+WHen stuck, pay a visit to:
 https://upskillcourses.com/courses/essential-web-developer-course/git-workflow-tips
 
 
@@ -128,3 +129,4 @@ https://getbootstrap.com/docs/4.5/components/navbar/ for the nav bar
 api.rubyonrails.org to improve how you write links 
 https://github.com/twbs/bootstrap-sass
 https://developers.google.com/speed/pagespeed/insights/
+https://guides.rubyonrails.org/v5.2/form_helpers.html
