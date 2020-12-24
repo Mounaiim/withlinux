@@ -59,7 +59,12 @@ https://guides.rubyonrails.org/v5.2/form_helpers.html
 
 now we going to improve forms using bootstrap 
 
+12/23/2020
+Database table
+create migration file: bundle exec rails generate migration CreateContacts 
+then use rails db:migrate to create the table
 
+mvc framework
 
 
 
