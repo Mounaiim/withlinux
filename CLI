@@ -71,6 +71,26 @@ mvc framework
 connect form in contact page to the database and flash a message. 
 used rails console then Concat.all(it is case sensitive) to verify the saved info in th db. 
 
+108: 
+some command we could use to process database manually: rails console --sandbox
+> Contact.new
+> @contact = Contact.new
+> @contact.name = "John Doe"
+> @contact.email = "john@example.com"
+> @contact
+> @contact.name
+> @contact.save
+> Contact.first
+> Contact.all
+> exit
+
+remember the console is case sensitive
+
+109 form validation, 
+
+Check and put constraint on what we wanna see on our db at the end hence what customers enters in the form 
+
+
 
 
 

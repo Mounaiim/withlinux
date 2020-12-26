@@ -4,6 +4,12 @@ class Contact < ActiveRecord::Base
     #name 
     #email
     #comment
+    #We could also add the conditions of our paramaters like i.e the email should have @ sign or the length of a comment etc 
+    
+    validates :name, presence: true
+    validates :email, presence: true
+    validates :comments, presence: true
+
 end
 
 
