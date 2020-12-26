@@ -67,6 +67,11 @@ then use rails db:migrate to create the table
 mvc framework
 
 
+105: 
+connect form in contact page to the database and flash a message. 
+used rails console then Concat.all(it is case sensitive) to verify the saved info in th db. 
+
+
 
 
 
