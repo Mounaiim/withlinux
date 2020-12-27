@@ -90,6 +90,15 @@ remember the console is case sensitive
 
 Check and put constraint on what we wanna see on our db at the end hence what customers enters in the form 
 
+Now we have the form validation set up, can always use rails c then Hirb.enable then Contact.all to see what is save from the contact page on the db
+
+112
+flash has on google and find documentation for the guides
+
+113
+search bootstap alert. for the error, success alerts etc! getbootstrap.com/components/#new to get multiple types of flash alerts.
+learn "each loop" that we used to flash the error/success message 
+
 
 
 

@@ -9,9 +9,11 @@ class ContactsController < ApplicationController
   def create 
     @contact = Contact.new(contact_params) #mass assignments #{name: 'asda', email: 'sdfsd', comments: 'dfsdsf'}
     if @contact.save
-      redirect_to new_contact_path, notice: "Message successfuly sent. "
+      flash[:success] = "Message successfuly sent. "
+      redirect_to new_contact_path
     else
-      redirect_to new_contact_path, notice: "Message Aborted"
+      flash[:danger] = @contact.errors.full_messages.join(", ")
+      redirect_to new_contact_path
     end
 end    
     private #protected method look it up/ and it is used internally/inside that file 

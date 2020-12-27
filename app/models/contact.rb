@@ -15,5 +15,5 @@ end
 
 
 
-#the model file contains the blue print of each of our objects essentially every information captured by the app like users info (name, email, comments)
+#the model file contains the blueprint of each of our objects essentially every information captured by the app like users info (name, email, comments)
 #we dont have to write it the attributes here because rails does it for us

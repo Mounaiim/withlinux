@@ -1,40 +1,35 @@
 <div class="container">
   
   <div class="row">
-    <div class="col-md-4 col-md-offset-4">
-      
-      <h3 class="text-center">Contact Us</h3>
-      <!--We are adding a flash message -->
-        <%= flash[:notice] %>
-      <!--this wrap will give you the grey background-->
-      <div class="well"> 
-        
-        <%= form_for @contact do |f| %>
-        
-          <div class="form-group"> <!--we wrap the two lines below with bootstrap -->
-            <%= f.label :Full_Name %>
-            <%= f.text_field :name, class: 'form-control' %>
+          <h3 class="text-center">Contact Us</h3>
+          <div class="col-md-4 col-md-offset-4">
+                   <!--this wrap will display the grey background-->
+                  <div class="well"> 
+                    <%= form_for @contact do |f| %>
+                    
+                          <div class="form-group"> <!--we wrap the two lines below with bootstrap -->
+                            <%= f.label :Full_Name %>
+                            <%= f.text_field :name, class: 'form-control' %>
+                          </div>
+                          
+                          <div class="form-group">
+                            <%= f.label :email %>
+                            <%= f.text_field :email, class: 'form-control'%>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          </div>
+                            
+                          <div class="form-group">
+                            <%= f.label :comments%>
+                            <%= f.text_area :comments, class: 'form-control' %>
+                          </div>
+                            
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                          
+                    <% end %>
+                  </div>
           </div>
-          
-          <div class="form-group">
-            <%= f.label :email %>
-            <%= f.text_field :email, class: 'form-control'%>
-
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-            
-          <div class="form-group">
-            <%= f.label :comments%>
-            <%= f.text_area :comments, class: 'form-control' %>
-          </div>
-            
-            <button type="submit" class="btn btn-primary">Submit</button>
-          
-        <% end %>
-      </div>
-      
-    </div>
   </div>
+</div>
   
   
   

@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   get 'products', to: 'pages#products'
   # get 'new', to: 'contacts#new'
   resources :contacts # using will allow you to see all the objects when you run rails routes in the CLI each contact will be individual object
+  #custom URLs
+  get 'contact-us', to:'contacts#new'
+  
 end
 
 
