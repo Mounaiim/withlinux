@@ -15,7 +15,7 @@ class ContactsController < ApplicationController
       flash[:danger] = @contact.errors.full_messages.join(", ")
       redirect_to new_contact_path
     end
-end    
+  end    
     private #protected method look it up/ and it is used internally/inside that file 
     def contact_params
       params.require(:contact).permit(:name, :email, :comments) #white list then allowing those attributes to be mass assigned
