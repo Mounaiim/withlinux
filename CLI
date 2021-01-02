@@ -105,6 +105,12 @@ learn "each loop" that we used to flash the error/success message
 >rails routes
 
 
+119
+contact mailer file
+so when someone send file the form we should be able to get that info somewhere: our email:D
+
+
+
 
 
 
