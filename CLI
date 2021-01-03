@@ -150,7 +150,9 @@ heroku run rails db:migrate to have your contact form working. (you would havene
 sending email with add on third party "mailgun" the free tier allows us to send 400 mail a day
 https://elements.heroku.com/addons/mailgun
 
-
+now everything you fo you would wanna push to your master branch and your live server in horuko to see changes. duh!
+git push origin master
+git push heroku master
 
 
 
