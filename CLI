@@ -1,6 +1,7 @@
+ using linux for this project. 
  cat ~/.ssh/id_rsa.pub #to generate a ssh key. 
 git checkout -b pages_and_layout was to switch to another branch / Switched to a new branch 'pages_and_layout'
-use npm # add c9 command to linux
+use npm # add c9 command to linux npm install -g c9
 # use google fonts for the homepage vid 66
 #in routes.rb: we will create a route for the home page. Then for the about page that will be /about to get there...
 #bbotstrap library front front end. 
@@ -109,7 +110,32 @@ learn "each loop" that we used to flash the error/success message
 contact mailer file
 so when someone send file the form we should be able to get that info somewhere: our email:D
 
+122 
+most of email are written with html 
+look up string interpretation that allows us to grasp a varible in between a paragraph using curly braces and the @ sign and the pund sign :D not in this order :D 
 
+
+gotta love using Contact.find(12) to display a single row of your record table. you can always add .delete to destray a targeted row. 
+
+124 review again to understand the hash
+
+control service from cli of ide we are using/how cool is that. 
+
+125 
+we used heroku login -i instead of heroku login
+then heroku create --stack heroku-16 instead of heroku create which specifies exactly which type of server is compatible with our version of Ruby
+
+we have postgres as database for heroku 
+
+127 
+
+we send master branch to production server in our case heroku
+
+git branch to visualize all the branches available
+
+or git branch xxx to create a new branch 
+
+git help tutorial to enter tutorial mode. there you find git log to get all the commited -m " " messages you logged in before
 
 
 

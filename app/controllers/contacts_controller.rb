@@ -9,6 +9,11 @@ class ContactsController < ApplicationController
   def create 
     @contact = Contact.new(contact_params) #mass assignments #{name: 'asda', email: 'sdfsd', comments: 'dfsdsf'}
     if @contact.save
+      # this is how we grab the names from form fields in the next 4lines
+      name = params[:contact][:name]
+      email = params[:contact][:email]
+      body = params[:contact][:comments]
+      ContactMailer.contact_email(name, email, body).deliver
       flash[:success] = "Message successfuly sent. "
       redirect_to new_contact_path
     else
