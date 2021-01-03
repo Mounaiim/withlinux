@@ -127,7 +127,7 @@ then heroku create --stack heroku-16 instead of heroku create which specifies ex
 
 we have postgres as database for heroku 
 
-127 
+126
 
 we send master branch to production server in our case heroku
 
@@ -137,7 +137,18 @@ or git branch xxx to create a new branch
 
 git help tutorial to enter tutorial mode. there you find git log to get all the commited -m " " messages you logged in before
 
+git push origin master 
+then git push heroku master
 
+
+
+126 
+use heroku domain
+heroku run rails db:migrate to have your contact form working. (you would havenever fixed this one by yourself :D)
+
+127 
+sending email with add on third party "mailgun" the free tier allows us to send 400 mail a day
+https://elements.heroku.com/addons/mailgun
 
 
 
