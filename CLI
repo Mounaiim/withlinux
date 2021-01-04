@@ -114,7 +114,8 @@ so when someone send file the form we should be able to get that info somewhere:
 most of email are written with html 
 look up string interpretation that allows us to grasp a varible in between a paragraph using curly braces and the @ sign and the pund sign :D not in this order :D 
 
-
+Contact.find(12) 
+Contact.delete
 gotta love using Contact.find(12) to display a single row of your record table. you can always add .delete to destray a targeted row. 
 
 124 review again to understand the hash
@@ -144,7 +145,7 @@ then git push heroku master
 
 126 
 use heroku domain
-heroku run rails db:migrate to have your contact form working. (you would havenever fixed this one by yourself :D)
+heroku run rails db:migrate to have your contact form working. (you would haven ever fixed this one by yourself :D)
 
 127 
 sending email with add on third party "mailgun" the free tier allows us to send 400 mail a day
@@ -154,6 +155,10 @@ now everything you fo you would wanna push to your master branch and your live s
 git push origin master
 git push heroku master
 
+
+01/03/2020
+contact form would't work, we will have to drop the app in heroku and deploy again, configur mailgun and try to send a form to my email 
+FUCKING HELL 
 
 
 
