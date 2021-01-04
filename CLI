@@ -159,6 +159,9 @@ git push heroku master
 01/03/2020
 contact form would't work, we will have to drop the app in heroku and deploy again, configur mailgun and try to send a form to my email 
 FUCKING HELL 
+had to delete the first app and deploy to another one because mailgun was screwed app
+heroku git:remote -a still-temple-44196
+set git remote heroku to https://git.heroku.com/still-temple-44196.git
 
 rails db:drop
 rails db:create
