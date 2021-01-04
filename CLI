@@ -160,6 +160,9 @@ git push heroku master
 contact form would't work, we will have to drop the app in heroku and deploy again, configur mailgun and try to send a form to my email 
 FUCKING HELL 
 
+rails db:drop
+rails db:create
+rails db:migrate
 
 
 
